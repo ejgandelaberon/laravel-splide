@@ -1,0 +1,25 @@
+{
+    "name": "emsephron/laravel-splide",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Emsephron\\LaravelSplide\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Emmanuel Joseph Beron",
+            "email": "emsephron@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Emsephron\\LaravelSplide\\LaravelSplideServiceProvider"
+            ]
+        }
+    }
+}
