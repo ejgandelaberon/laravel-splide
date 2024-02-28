@@ -17,7 +17,7 @@ trait PreConfigurable
     public function preConfigure(): static
     {
         foreach (static::$preConfigurations as $classToConfigure => $configurationCallbacks) {
-            if (! $this instanceof $classToConfigure) {
+            if (!$this instanceof $classToConfigure) {
                 continue;
             }
 
