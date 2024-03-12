@@ -19,7 +19,7 @@ abstract class SplideComponent extends Component
 
     protected string $view = 'splide::splide';
 
-    final public function __construct(public Options $splideOptions)
+    public function __construct(public Options $splideOptions)
     {
         $ariaLabel = $this->splideOptions->getLabel() ?? $this->defaultAriaLabel();
 
